@@ -1,4 +1,4 @@
-# SQL Layer — Dataset Construction & Data Quality
+# SQL Layer: Dataset Construction & Data Quality
 
 This directory documents how the analytical dataset was constructed from transactional
 loan data. The SQL examples in this repository are sanitized methodological
