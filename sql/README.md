@@ -131,20 +131,6 @@ The public documentation should preserve that distinction:
 - **diagnostic analysis:** identify and quantify possible inconsistencies without
   automatically changing the data.
 
-## Public release rules
-
-Before publishing any SQL implementation:
-
-1. Replace every production table, column, procedure, schema, and function name.
-2. Remove member, loan, office, project, and other internal identifiers.
-3. Remove credentials, hostnames, internal paths, and proprietary codes.
-4. Generalize business-specific exclusion values and operational statuses.
-5. Review comments: comments can disclose sensitive implementation details too.
-6. Keep only logic that can be explained and safely represented with a generic schema.
-
-The public scripts should be short, human-readable, and commented only where a
-non-obvious analytical decision needs context. The original SQL remains private.
-
 ## Execution note
 
 The sanitized SQL examples are intended to communicate methodology. They are not
